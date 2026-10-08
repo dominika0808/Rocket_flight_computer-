@@ -5278,6 +5278,28 @@
 		)
 		(uuid "986e27c0-6674-41d2-aae9-ad5c63450677")
 	)
+	(hierarchical_label "USART2_TX"
+		(shape input)
+		(at 256.54 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df58fd88-5afe-4cf9-b643-c578562134de")
+	)
+	(hierarchical_label "USART2_RX"
+		(shape input)
+		(at 256.54 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3f45951-95a9-4bcf-a9ed-cf6f4c460b8a")
+	)
 	(hierarchical_label "SERWO3_PWM"
 		(shape input)
 		(at 214.63 118.11 0)
