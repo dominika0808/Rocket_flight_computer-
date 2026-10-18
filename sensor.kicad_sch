@@ -2750,7 +2750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0362e0d2-151e-44ab-a1a2-3f301b0549f3")
-		(property "Reference" "C3"
+		(property "Reference" "C21"
 			(at 66.04 90.1762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2772,7 +2772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 63.5 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2814,7 +2814,7 @@
 		(instances
 			(project "flight_controller"
 				(path "/6af40c3f-be19-463b-a9b6-2f3cba853d02/0704ef58-62bc-45a1-abb2-7b7b5f193951"
-					(reference "C3")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -2832,7 +2832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04460953-5c31-4ee5-b31f-1c4643b21d5a")
-		(property "Reference" "IC2"
+		(property "Reference" "IC3"
 			(at 87.2333 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2854,7 +2854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LSM6DSV16BXTR"
+		(property "Footprint" ""
 			(at 96.52 148.26 0)
 			(hide yes)
 			(show_name no)
@@ -2994,7 +2994,7 @@
 		(instances
 			(project "flight_controller"
 				(path "/6af40c3f-be19-463b-a9b6-2f3cba853d02/0704ef58-62bc-45a1-abb2-7b7b5f193951"
-					(reference "IC2")
+					(reference "IC3")
 					(unit 1)
 				)
 			)
@@ -3012,7 +3012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "087e358c-1b1d-49e4-8c60-66eff7100cf1")
-		(property "Reference" "IC3"
+		(property "Reference" "IC2"
 			(at 83.82 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3032,7 +3032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IIS2MDCTR"
+		(property "Footprint" ""
 			(at 101.6 246.05 0)
 			(hide yes)
 			(show_name no)
@@ -3166,7 +3166,7 @@
 		(instances
 			(project "flight_controller"
 				(path "/6af40c3f-be19-463b-a9b6-2f3cba853d02/0704ef58-62bc-45a1-abb2-7b7b5f193951"
-					(reference "IC3")
+					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -3184,7 +3184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e72e9dd-184e-4529-8688-dda10910fb0a")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR021"
 			(at 110.49 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -3244,7 +3244,7 @@
 		(instances
 			(project "flight_controller"
 				(path "/6af40c3f-be19-463b-a9b6-2f3cba853d02/0704ef58-62bc-45a1-abb2-7b7b5f193951"
-					(reference "#PWR09")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3262,7 +3262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37bfc2d8-b5e0-4883-becf-ce6c607f716a")
-		(property "Reference" "C7"
+		(property "Reference" "C23"
 			(at 118.11 161.2962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3284,7 +3284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 115.57 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -3326,7 +3326,7 @@
 		(instances
 			(project "flight_controller"
 				(path "/6af40c3f-be19-463b-a9b6-2f3cba853d02/0704ef58-62bc-45a1-abb2-7b7b5f193951"
-					(reference "C7")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -3344,7 +3344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "588aeac8-f208-4f06-9b35-eae6d701463f")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR025"
 			(at 245.11 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3404,7 +3404,7 @@
 		(instances
 			(project "flight_controller"
 				(path "/6af40c3f-be19-463b-a9b6-2f3cba853d02/0704ef58-62bc-45a1-abb2-7b7b5f193951"
-					(reference "#PWR012")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3422,7 +3422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b989844-f80c-403a-8150-ad7415971a49")
-		(property "Reference" "C6"
+		(property "Reference" "C24"
 			(at 127 161.2962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3444,7 +3444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 124.46 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -3486,7 +3486,7 @@
 		(instances
 			(project "flight_controller"
 				(path "/6af40c3f-be19-463b-a9b6-2f3cba853d02/0704ef58-62bc-45a1-abb2-7b7b5f193951"
-					(reference "C6")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -3504,7 +3504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bedd833-33d2-4510-9a86-5c35f66755e6")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR023"
 			(at 227.33 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3564,7 +3564,7 @@
 		(instances
 			(project "flight_controller"
 				(path "/6af40c3f-be19-463b-a9b6-2f3cba853d02/0704ef58-62bc-45a1-abb2-7b7b5f193951"
-					(reference "#PWR01")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -3582,7 +3582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d191981-0ffa-41f7-af3a-d2502ce1fcce")
-		(property "Reference" "C8"
+		(property "Reference" "C20"
 			(at 54.61 165.1062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3604,7 +3604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 52.07 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -3646,7 +3646,7 @@
 		(instances
 			(project "flight_controller"
 				(path "/6af40c3f-be19-463b-a9b6-2f3cba853d02/0704ef58-62bc-45a1-abb2-7b7b5f193951"
-					(reference "C8")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -3664,7 +3664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67fa7ed2-8d78-4956-b872-4d930500cbe2")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 245.11 90.0998 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3684,7 +3684,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BMP581"
+		(property "Footprint" ""
 			(at 241.3 181.28 0)
 			(hide yes)
 			(show_name no)
@@ -3812,7 +3812,7 @@
 		(instances
 			(project "flight_controller"
 				(path "/6af40c3f-be19-463b-a9b6-2f3cba853d02/0704ef58-62bc-45a1-abb2-7b7b5f193951"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -3830,7 +3830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f35798d-f9f0-4a6a-be2f-2cb50604ac23")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR022"
 			(at 200.66 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3890,7 +3890,7 @@
 		(instances
 			(project "flight_controller"
 				(path "/6af40c3f-be19-463b-a9b6-2f3cba853d02/0704ef58-62bc-45a1-abb2-7b7b5f193951"
-					(reference "#PWR04")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3908,7 +3908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9db771ce-4c16-4329-843c-863293b261a4")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR015"
 			(at 60.96 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -3968,7 +3968,7 @@
 		(instances
 			(project "flight_controller"
 				(path "/6af40c3f-be19-463b-a9b6-2f3cba853d02/0704ef58-62bc-45a1-abb2-7b7b5f193951"
-					(reference "#PWR08")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3986,7 +3986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e03b097-183a-4374-a5ef-f407d64b4581")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR020"
 			(at 107.95 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4046,7 +4046,7 @@
 		(instances
 			(project "flight_controller"
 				(path "/6af40c3f-be19-463b-a9b6-2f3cba853d02/0704ef58-62bc-45a1-abb2-7b7b5f193951"
-					(reference "#PWR010")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -4064,7 +4064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ff2bf3b-e563-4486-a2ea-9581a3b6c8e6")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR016"
 			(at 62.23 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4124,7 +4124,7 @@
 		(instances
 			(project "flight_controller"
 				(path "/6af40c3f-be19-463b-a9b6-2f3cba853d02/0704ef58-62bc-45a1-abb2-7b7b5f193951"
-					(reference "#PWR040")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4142,7 +4142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a354e978-8cc8-403e-a657-d8b056ccd866")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 229.87 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4164,7 +4164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 227.33 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4206,7 +4206,7 @@
 		(instances
 			(project "flight_controller"
 				(path "/6af40c3f-be19-463b-a9b6-2f3cba853d02/0704ef58-62bc-45a1-abb2-7b7b5f193951"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4224,7 +4224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a434d1ce-4b7c-47b5-bca3-c02cc2173907")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR019"
 			(at 105.41 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4284,7 +4284,7 @@
 		(instances
 			(project "flight_controller"
 				(path "/6af40c3f-be19-463b-a9b6-2f3cba853d02/0704ef58-62bc-45a1-abb2-7b7b5f193951"
-					(reference "#PWR06")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4302,7 +4302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a645815d-b621-4e04-95e1-7c5513d6d1a5")
-		(property "Reference" "C4"
+		(property "Reference" "C22"
 			(at 107.95 73.6662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4324,7 +4324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 105.41 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4366,7 +4366,7 @@
 		(instances
 			(project "flight_controller"
 				(path "/6af40c3f-be19-463b-a9b6-2f3cba853d02/0704ef58-62bc-45a1-abb2-7b7b5f193951"
-					(reference "C4")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -4384,7 +4384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b01dfd1b-64ff-43de-b781-bf2f5e6029ca")
-		(property "Reference" "C1"
+		(property "Reference" "C26"
 			(at 203.2 72.3962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4406,7 +4406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 200.66 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4448,7 +4448,7 @@
 		(instances
 			(project "flight_controller"
 				(path "/6af40c3f-be19-463b-a9b6-2f3cba853d02/0704ef58-62bc-45a1-abb2-7b7b5f193951"
-					(reference "C1")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -4488,7 +4488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 213.36 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4548,7 +4548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b27702a2-0294-44db-8d26-5fc9fcedcdb2")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR018"
 			(at 82.55 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4608,7 +4608,7 @@
 		(instances
 			(project "flight_controller"
 				(path "/6af40c3f-be19-463b-a9b6-2f3cba853d02/0704ef58-62bc-45a1-abb2-7b7b5f193951"
-					(reference "#PWR05")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4626,7 +4626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b38096dd-3331-45ae-bbf7-21d585de19ce")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR024"
 			(at 229.87 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4686,7 +4686,7 @@
 		(instances
 			(project "flight_controller"
 				(path "/6af40c3f-be19-463b-a9b6-2f3cba853d02/0704ef58-62bc-45a1-abb2-7b7b5f193951"
-					(reference "#PWR02")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4704,7 +4704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb7f2e91-73c6-487c-8fac-a89619d3c29c")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR017"
 			(at 63.5 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4764,7 +4764,7 @@
 		(instances
 			(project "flight_controller"
 				(path "/6af40c3f-be19-463b-a9b6-2f3cba853d02/0704ef58-62bc-45a1-abb2-7b7b5f193951"
-					(reference "#PWR07")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -4782,7 +4782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7f1e93c-4ade-4a26-bf52-84c4fa51607d")
-		(property "Reference" "C5"
+		(property "Reference" "C25"
 			(at 137.16 161.2962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4804,7 +4804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 134.62 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -4846,7 +4846,7 @@
 		(instances
 			(project "flight_controller"
 				(path "/6af40c3f-be19-463b-a9b6-2f3cba853d02/0704ef58-62bc-45a1-abb2-7b7b5f193951"
-					(reference "C5")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -4864,7 +4864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcd32253-bffd-411a-81f9-e8bab9364145")
-		(property "Reference" "C2"
+		(property "Reference" "C27"
 			(at 247.65 72.3962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4886,7 +4886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 245.11 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4928,7 +4928,7 @@
 		(instances
 			(project "flight_controller"
 				(path "/6af40c3f-be19-463b-a9b6-2f3cba853d02/0704ef58-62bc-45a1-abb2-7b7b5f193951"
-					(reference "C2")
+					(reference "C27")
 					(unit 1)
 				)
 			)
